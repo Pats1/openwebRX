@@ -417,10 +417,18 @@ PiShrink can be ran on Windows using Windows Subsystem for Linux (WSL 2)
 
 In an Administrator command prompt run wsl --install -d Debian. You will likely need to reboot after. 
 Open the Debian or Ubuntu app from your start menu.
-Run sudo apt update && sudo apt install -y wget parted gzip pigz xz-utils udev e2fsprogs
-Your C:\ drive is mounted at /mnt/c/
+Your C:\ drive is mounted at /mnt/c/ of when multi /d/ /e/ etc.
 
-sudo /usr/local/bin/pishrink.sh startl_demoUSR_demo.img startl_demoUSR_demo_reduced.img
+Installation
+Run sudo apt update && sudo apt install -y wget parted gzip pigz xz-utils udev e2fsprogs
+wget https://raw.githubusercontent.com/Drewsif/PiShrink/master/pishrink.sh
+chmod +x pishrink.sh
+sudo mv pishrink.sh /usr/local/bin
+
+Usage
+cd /mnt/c/
+ls -a
+sudo /usr/local/bin/pishrink.sh demoUSR_demo.img demoUSR_demo_reduced.img
 ---
 
 **Herstellen VIA een reeds opgeslagen backup**
