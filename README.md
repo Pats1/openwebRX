@@ -412,7 +412,9 @@ Selecteer het juiste doelapparaat. Klik op Lezen en wacht tot het inlezen voltoo
 
 Bewaar dit op een veilige plaats Tip: bewaar ook de login gegevens op die plaats in een tekstbestand.
 
-Automatische compressie met PiShrink
+PiShrink
+PiShrink is a bash script that automatically shrink a pi image that will then resize to the max size of the SD card on boot. 
+This will make putting the image back onto the SD card faster.
 PiShrink can be ran on Windows using Windows Subsystem for Linux (WSL 2)
 
 In an Administrator command prompt run wsl --install -d Debian. You will likely need to reboot after. 
