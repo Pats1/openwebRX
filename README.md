@@ -1,4 +1,4 @@
-### OpenwebRX  Installatie & Configuratie door ON3PDY. ###
+### OpenwebRX  Installatie & Configuratie door ON1PT. ###
 ---
 ## Benodigdheden ##
 <img src="assets/images/rpi_board.jpg" height="200">      <img src="assets/images/pi5.png" height="200">  <img src="assets/images/antenne.png" height="200">
