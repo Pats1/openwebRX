@@ -86,6 +86,20 @@ Steek de SDkaart terug in je PC en maak een nieuw leeg tekstbestand aan in de ro
 
 ![image](assets/images/ssh.png)
 
+In dezelfde partitie, maak bestand met volgende naam en plak onderstaande daar in.  wpa_supplicant.conf
+
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=BE
+
+network={
+    ssid="YOUR_WIFI_NAME"
+    psk="YOUR_WIFI_PASSWORD"
+    key_mgmt=WPA-PSK
+}
+
+Replace YOUR_WIFI_NAME and YOUR_WIFI_PASSWORD with your actual network details
+
 **De eerste opstart van OpenWebRx**
 
 - Steek de SD kaart in de Raspberry PI.
