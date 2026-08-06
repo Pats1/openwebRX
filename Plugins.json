@@ -10,5 +10,8 @@ Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/utils/utils.
     Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/magic_key/magic_key.js');
     Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/mouse_freq/mouse_freq.js');
     Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/screenshot/screenshot.js');
+    Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/smeter/smeter.js');
+    Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/doppler/doppler.js');
+    Plugins.load('https://0xaf.github.io/openwebrxplus-plugins/receiver/freq_scanner/freq_scanner.js');
   });
 });
